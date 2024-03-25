@@ -20,4 +20,4 @@ jobs:
     - name: test
       shell: bash
       run: |
-        echo "secrets are: ${{ secrets.TEST }}"
+        echo "secrets are: ${{ vars.TEST }}"
