@@ -11,7 +11,7 @@ jobs:
   validate_vars:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    environment: dev
+    environment: test
     
 
     # Steps represent a sequence of tasks that will be executed as part of the job
