@@ -21,3 +21,4 @@ jobs:
       shell: bash
       run: |
         echo "secrets are: ${{ vars.TEST }}"
+        echo "vars is: ${{ vars.TEST.VAR1 }}"
